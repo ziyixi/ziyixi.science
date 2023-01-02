@@ -1,0 +1,5 @@
+public/
+.DS_Store
+.hugo_build.lock
+content/en/publication/*/cite.bib
+content/en/publication/*/index.md

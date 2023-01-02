@@ -1,0 +1,19 @@
+main:
+  - name: About
+    url: '#about'
+    weight: 1
+  - name: Resume
+    url: /resume/
+    weight: 2
+  - name: Posts
+    url: /posts/
+    weight: 3
+  - name: Research-Projects
+    url: /researchprojects/
+    weight: 4
+  - name: Publications
+    url: /publications/
+    weight: 5
+  - name: Open-Source
+    url: /opensource/
+    weight: 6

@@ -1,0 +1,19 @@
+main:
+  - name: 关于
+    url: '#about'
+    weight: 1
+  - name: 简历
+    url: /resume/
+    weight: 2
+  - name: 博客
+    url: /posts/
+    weight: 3
+  - name: 科研项目
+    url: /researchprojects/
+    weight: 4
+  - name: 论文发表
+    url: /publications/
+    weight: 5
+  - name: 开源项目
+    url: /opensource/
+    weight: 6
