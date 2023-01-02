@@ -3,3 +3,7 @@ public/
 .hugo_build.lock
 content/en/publication/*/cite.bib
 content/en/publication/*/index.md
+assets/jsconfig.json
+resources/
+
+node_modules/

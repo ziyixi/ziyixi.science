@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div>
+
+    <ul>
+
+        {{range .Page.Resources}}
+        <li>
+            {{ .Params.description }}
+
+        </li>
+        {{end}}
+    </ul>
+
+</div>
+
+{{ end }}
