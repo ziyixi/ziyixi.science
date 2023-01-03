@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="grid grid-cols-2 gap-4 bg-purple-200 lg:grid-cols-8 lg:pt-12">
+    <div class="col-span-2 rounded bg-neutral-400 px-6 lg:col-span-6 lg:col-start-2">
+        <article class="prose">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                {{.Params.month}}, {{.Params.year}}</time>
+            <h2>{{ .Params.title }}</h2>
+            <h4>{{ delimit .Params.authors ", " ", and " }}</h4>
+            <p>{{ .Params.abstract | markdownify}}</p>
+            <div class="flex space-x-4">
+                {{ $bib := .Resources.GetMatch "cite.bib" }}
+                <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent"
+                    href="{{ $bib.Permalink }}">BIB</a>
+                <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent"
+                    href="{{ .Params.html }}">HTML</a>
+                <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent"
+                    href="{{.Site.BaseURL}}publications/pdf/{{ .Params.pdf }}">PDF</a>
+            </div>
+        </article>
+    </div>
+</div>
+
+{{ end }}

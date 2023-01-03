@@ -10,7 +10,8 @@
             <h4>{{ delimit .Params.authors ", " ", and " }}</h4>
             <p>{{ strings.TrimRight "*" (strings.TrimLeft "*" .Params.publication) }}</p>
             <div class="flex space-x-4">
-                <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent" href="#">ABS</a>
+                <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent"
+                    href="{{ .Permalink }}">ABS</a>
                 {{ $bib := .Resources.GetMatch "cite.bib" }}
                 <a class="rounded border bg-transparent py-1 px-4 hover:border-transparent"
                     href="{{ $bib.Permalink }}">BIB</a>
