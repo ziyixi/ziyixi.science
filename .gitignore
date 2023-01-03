@@ -1,8 +1,8 @@
 public/
 .DS_Store
 .hugo_build.lock
-content/en/publication/*/cite.bib
-content/en/publication/*/index.md
+content/en/publications/*/cite.bib
+content/en/publications/*/index.md
 assets/jsconfig.json
 resources/
 
