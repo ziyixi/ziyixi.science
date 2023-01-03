@@ -24,9 +24,7 @@ jobs:
           python-version: "3.9"
       - name: Install dependencies
         run: |
-          cd scripts
           python -m pip install -r requirements.txt
-          cd ..
       - name: Build bib
         run: |
           cd scripts
