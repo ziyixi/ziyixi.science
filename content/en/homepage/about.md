@@ -3,7 +3,7 @@ title: Ziyi Xi
 draft: false
 role: CMSE @ MSU | EES & CS @ USTC
 avatar: images/Grad_Ziyi_Xi_profile_pic.png
-bio: 'Ph.D. candidate studying comp. seismology & ML in seismology.<br/><br/> &#11088; Research Interests:<br/> &bull; &nbsp; Full seismic waveform inversion<br/> &bull; &nbsp; Machine learning in seismology<br/> &bull; &nbsp; High performance computing'
+bio: "Ph.D. candidate studying Computational Mathematics, Science and Engineering & Geophysics.<br/><br/> &#11088; Research Interests:<br/> &bull; &nbsp; Full seismic waveform inversion<br/> &bull; &nbsp; Machine learning seismology<br/> &bull; &nbsp; High performance computing"
 organization:
   name:
   url:
@@ -24,7 +24,6 @@ social:
     iconPack: fas
     url: index.xml
 
-
 weight: 1
 widget:
   handler: about
@@ -37,7 +36,7 @@ widget:
     position:
     # Options: sm, md, lg and xl. Default is md.
     scale:
-  
+
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
     color: secondary
@@ -47,13 +46,15 @@ widget:
     # Options: center, top, right, bottom, left.
     position:
     # Options: fixed, local, scroll.
-    attachment: 
+    attachment:
 ---
 
-I am currently a Ph.D. candidate in the Department of Computational Mathematics Science and Engineering (CMSE) of Michigan State University, with the mentor of Prof. Songqiao "Shawn" Wei and Prof. Min Chen.
+I am currently pursuing my Ph.D. in the Department of Computational Mathematics Science and Engineering (CMSE) at Michigan State University, under the guidance of Prof. Songqiao "Shawn" Wei and Prof. Min Chen.
 
-One of my research focus is computational seismology, especially for the methods and applications of performing seismic inversion on supercomputers. I am also working on a cross-project using computer vision techniques to do weak earthquake phase signal picking.
+My research is focused on exploring machine learning and high-performance computing techniques, particularly in the context of computational seismic imaging. I'm also interested in how machine learning can be applied to solve other geophysical problems. As part of my research, I've developed a high-frequency full waveform inversion (FWI) model for the East Asia and Western Pacific subduction zones (EARA2023, currently under review at GJI).
 
-I am an open-source lover interested in Python, Go, and Typescript application development. Cloud computing is my other recent interest, and you can view my current running servers list on Azure.
+In addition, I've created an advanced seismic arrival time detection system using deep neural networks in the spectrogram domain. This system employs the latest image segmentation approaches ([PhaseNet-TF](https://github.com/ziyixi/PhaseNet-TF)). Presently, I'm working on an end-to-end machine learning workflow to detect minor earthquakes in the Tonga subduction zone, using seismic waveforms recorded by both land-based stations and ocean bottom seismometers (OBSs).
 
-I am actively looking for an internship (summer 2023) and a new grad job (starting from early 2024) in software development and machine learning engineering. Please contact me if interested!
+I'm an active participant in open-source development, and I enjoy working with Python, Go, C/C++, and TypeScript. I'm also interested in Cloud Computing, and I'm currently working on a project to migrate my workflow to the cloud, supported by the [MSU Cloud Computing Fellowship](https://icer.msu.edu/about/announcements/introducing-2022-msu-cloud-computing-fellows). This project involves using advanced tools like Kubeflow on Azure.
+
+As I approach the end of my Ph.D., I'm actively looking for new grad opportunities (starting late 2023 or early/mid 2024) in software development and machine learning engineering. Please don't hesitate to reach out if you're interested!

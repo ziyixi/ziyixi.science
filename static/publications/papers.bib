@@ -70,6 +70,21 @@
   copyright = {Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)},
 }
 
+@article{li2023deep,
+  bibtex_show={true},
+  title={Deep geophysical anomalies beneath the Changbaishan Volcano},
+  author={Li, Shaohua and Li, Jiaqi and Ferrand, Thomas P and Zhou, Tong and Lv, Mingda and Xi, Ziyi and Maguire, Ross and Han, Guangjie and Li, Juan and Bao, Xiyuan and others},
+  journal={Journal of Geophysical Research Solid Earth},
+  pages={e2022JB025671},
+  year={2023},
+  month=apr,
+  abstract={Subsurface imaging is key to understanding the origin of intraplate volcanoes. The Changbaishan volcano, located about 2,000 km away from the western Pacific subduction zone, has several debated origins. To investigate this, we compared regional seismic tomography with the electrical resistivity results and obtained high-resolution 1D and quasi-2D velocity-depth profiles. We show that the upper mantle is characterized by two anomalies exhibiting distinct features which cannot be explained by the same mechanism. We document a localized low-velocity anomaly atop the 410-km discontinuity, where the P-wave velocity is reduced more than that of the S-wave (i.e., lower Vp/Vs). We propose that this anomaly is caused by the reduction of the effective moduli during the phase transformation of olivine. The other anomaly, located between 300 and 370 km depth, reveals a significant reduction of the S-wave velocity (i.e., higher Vp/Vs), associated with a reduction of the electrical resistivity, altogether consistent with partial melting.},
+  doi={10.1029/2022JB025671},
+  html = {https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JB025671},
+  publisher={Wiley Online Library},
+  pdf = {JGR Solid Earth - 2023 - Li.pdf},
+}
+
 @inproceedings{xi2019towards,
   title={Towards a Refined 3D Model of the Western Pacific Slab to Investigate the Nature of Deep Earthquakes},
   author={Xi, Ziyi and Chen, Min and Zhou, Tong and Wang, Baoshan and Kim, Younghee},
@@ -132,5 +147,17 @@
   abstract={The frequency-wavenumber (FK) package (Zhu & Rivera, 2002) has been widely used in calculating synthetic seismograms. It can provide numerical solutions for a one-dimension layered seismic model. The current serial version of the FK package has the advantages of accuracy and accessibility. However, the simulation speed slows down for either relatively large epicenter distances or higher frequencies. It becomes more challenging for multiple events and a large number of models. Here we develop a parallel-computing version of the FK package using Message Passing Interface (MPI) and Compute Unified Device Architecture (CUDA). Users can choose either to run the program on multiple CPUs using MPI or GPU using CUDA. Our benchmark results show that the MPI version is optimal for using a small number of CPUs, which leads to almost a linear speedup ratio. But the acceleration is not significant when using more than 30 CPUs, because of the overhead restriction of the process communication. On the other hand, the CUDA version shows a noticeable speedup on a single GPU. Furthermore, we use Cython, a superset of the Python programming language designed to give C-like performance, to rewrite the core code of FK to accelerate the calculation further. Within the Python framework, PyFk flexibly supports visualization and post-procession of the results using Obspy and other common seismic tools. Besides simulations for the Earth models, we also build a gallery of synthetic seismograms for Martian crustal structures, using all the available crustal models for Mars. We believe that PyFk will provide vital support for both terrestrial and planetary studies with its powerful computational performance.},
   html={https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/900049},
   poster={AGU2021_ZiyiXi_PyFK.pdf},
+  bibtex_show={true},
+}
+
+@inproceedings{xi2022agu,
+  title={Detecting converted seismic phases of Tonga deep earthquakes: insights from deep-learning methods},
+  author={Xi, Ziyi and Songqiao Shawn Wei and Weiqiang Zhu and Gregory C Beroza},
+  booktitle={AGU Fall Meeting Abstracts},
+  year={2022},
+  month = dec,
+  abstract={Converted seismic phases have played a key role in the history of structural seismology. In recent years, the large volume of seismic data collected in the Tonga-Fiji region provide a great opportunity to investigate the Tonga subduction zone structure. The data contain many P-to-S (PS) waves from deep earthquakes converted at the slab surface (top interface), which provide valuable information on the geometry and structure of the subducted slab. However, identifying PS phases in a large seismic dataset is challenging due to inconsistent phase frequency distribution and different selection criteria from human analysts. The applications of deep learning algorithms to converted phases are also limited. To address these issues, here we present a new deep-learning-based model (PhaseNet-TF) in the time-frequency domain to detect the arrivals of PS converted waves in addition to the direct P and S phases. The new model not only detects direct P and S arrivals as accurately as the widely used PhaseNet model, but also reliably detects the challenging PS arrival. We apply this model to a seismic array in Tonga and combined beamforming as an association method to remove false-positive detections. The new model significantly increases the number of PS arrival measurements, resulting in improved imaging of the Tonga slab with a higher resolution. Deep learning has the potential to dramatically improve the detection of converted phases for structural seismology as it has done for other seismological tasks.},
+  html={https://ui.adsabs.harvard.edu/abs/2022AGUFM.S52A..05X/abstract},
+  slides={AGU2022_ZiyiXi_PhaseNet_TF.pdf},
   bibtex_show={true},
 }
