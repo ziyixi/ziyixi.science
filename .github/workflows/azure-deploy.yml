@@ -30,6 +30,10 @@ jobs:
           cd scripts
           python generate_publications_content.py --bibfile ../static/publications/papers.bib --savedir ../content/en/publications
           cd ..
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install postcss-cli -g
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
