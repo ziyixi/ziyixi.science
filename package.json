@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-notion-starter-kit",
-  "version": "2.0.0",
+  "name": "ziyi-blog",
+  "version": "1.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "A Next.js site using Notion for the CMS.",
+  "author": "Ziyi Xi (me@ziyixi.science)",
+  "repository": "ziyixi/ziyixi.science",
   "license": "MIT",
   "engines": {
     "node": ">=18"
