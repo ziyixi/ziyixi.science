@@ -293,6 +293,11 @@ export function NotionPage({
       />
       <Analytics />
       <SpeedInsights />
+      <script
+        defer
+        src='https://unami.ziyixi.science/script.js'
+        data-website-id='44af872c-1d55-4ab9-85ab-2cd0a5f0d39c'
+      ></script>
     </>
   )
 }
